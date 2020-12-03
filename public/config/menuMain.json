@@ -1,0 +1,50 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/1-tema.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "servicio",
+    "title": "1. Servicio al cliente ",
+    "breadcrumb": ["Inicio","servicio"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "servicio",
+        "title": "1.1 Triángulo de servicio",
+        "anchor": "triangulo"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "servicio",
+        "title": "1.2 Ciclo del servicio",
+        "anchor": "ciclo"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "servicio",
+        "title": "1.3 Momentos de verdad",
+        "anchor": "momentos"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "servicio",
+        "title": "1.4 Habilidad del servicio",
+        "anchor": "habilidad"
+      }
+    ]
+  }
+]
