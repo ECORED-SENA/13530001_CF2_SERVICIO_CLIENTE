@@ -34,7 +34,7 @@
         "anchor": "ciclo"
       },
       {
-        "icon": "fa fa-play-circle",
+        "icon": "fa fa-file-text",
         "slug": "servicio",
         "title": "1.3 Momentos de verdad",
         "anchor": "momentos"
